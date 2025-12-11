@@ -24,6 +24,7 @@ cffi @ file:///home/conda/feedstock_root/build_artifacts/cffi_1725560520483/work
 charset-normalizer @ file:///home/conda/feedstock_root/build_artifacts/charset-normalizer_1754767332901/work
 click @ file:///home/conda/feedstock_root/build_artifacts/click_1747811314515/work
 clint==0.5.1
+clip @ git+https://github.com/openai/CLIP.git@dcba3cb2e2827b402d2701e7e1c7d9fed8a20ef1
 coloredlogs==15.0.1
 contourpy==1.3.2
 cumm-cu121==0.7.11
@@ -42,7 +43,6 @@ einops==0.8.1
 exceptiongroup==1.3.0
 executing==2.2.1
 fastapi==0.116.1
-fastrlock==0.8.3
 ffmpy==0.6.1
 filelock==3.18.0
 fire==0.7.0
@@ -50,6 +50,7 @@ flash_attn==2.7.2.post1
 Flask @ file:///home/conda/feedstock_root/build_artifacts/flask_1747203985407/work
 flatbuffers==25.2.10
 fonttools==4.59.0
+freetype-py==2.5.1
 frozenlist @ file:///home/conda/feedstock_root/build_artifacts/frozenlist_1752167142843/work
 fsspec==2025.3.0
 ftfy==6.3.1
@@ -96,6 +97,7 @@ librosa==0.11.0
 -e git+https://github.com/CaraJ7/T2I-R1.git@941b6a9cc85a072391faf0d3416e4bc2bcd463bb#egg=llava&subdirectory=src/t2i-r1/src/utils/LLaVA-NeXT
 llvmlite==0.44.0
 loguru @ file:///home/conda/feedstock_root/build_artifacts/loguru_1746634721458/work
+lpips==0.1.4
 markdown-it-py==4.0.0
 MarkupSafe @ file:///home/conda/feedstock_root/build_artifacts/markupsafe_1733219680183/work
 matplotlib==3.10.5
@@ -113,7 +115,7 @@ networkx==3.4.2
 ninja==1.13.0
 nltk==3.9.1
 numba==0.61.2
-numpy==1.26.4
+numpy @ file:///home/conda/feedstock_root/build_artifacts/numpy_1707225380409/work/dist/numpy-1.26.4-cp310-cp310-linux_x86_64.whl#sha256=51131fd8fc130cd168aecaf1bc0ea85f92e8ffebf211772ceb16ac2e7f10d7ca
 nvdiffrast @ file:///tmp/tmp.1I093mJai8/nvdiffrast
 nvidia-cublas-cu12==12.4.5.8
 nvidia-cuda-cupti-cu12==12.4.127
@@ -134,13 +136,10 @@ open3d-cpu @ file:///home/conda/feedstock_root/build_artifacts/open3d_1726894150
 openai==1.102.0
 opencv-python==4.12.0.88
 opencv-python-headless==4.12.0.88
-opentelemetry-proto==1.26.0
-opentelemetry-semantic-conventions-ai==0.4.13
 orjson==3.11.2
 packaging @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_packaging_1745345660/work
 pandas==2.3.1
 parso==0.8.5
-partial-json-parser==0.2.1.1.post6
 pccm==0.4.16
 peft==0.13.2
 pexpect==4.9.0
@@ -151,7 +150,6 @@ pluggy==1.6.0
 plyfile==1.1.2
 pooch==1.8.2
 portalocker==3.2.0
-prometheus_client==0.23.1
 prompt_toolkit==3.0.52
 propcache @ file:///home/conda/feedstock_root/build_artifacts/propcache_1744524934684/work
 protobuf==3.20.3
@@ -162,26 +160,25 @@ py-cpuinfo==9.0.0
 pyarrow==13.0.0
 pybind11==3.0.0
 pycocotools==2.0.10
-pycountry==24.6.1
 pycparser @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_pycparser_1733195786/work
 pydantic==2.10.6
 pydantic_core==2.27.2
 pydub==0.25.1
+pyglet==2.1.9
 Pygments==2.19.2
 PyMatting==1.1.14
 pymeshfix==0.17.1
+PyOpenGL==3.1.0
 pyparsing==3.2.3
+pyrender==0.1.45
 PySocks @ file:///home/conda/feedstock_root/build_artifacts/pysocks_1733217236728/work
 pytest==7.2.0
 pytest-split==0.8.0
 python-dateutil==2.9.0.post0
-python-dotenv==1.1.1
-python-json-logger==4.0.0
 python-multipart==0.0.20
 pytz==2025.2
 pyvista==0.46.1
 PyYAML==6.0.2
-pyzmq==27.1.0
 qwen-vl-utils==0.0.11
 referencing==0.36.2
 regex==2025.7.34
@@ -189,7 +186,6 @@ rembg==2.0.67
 requests @ file:///home/conda/feedstock_root/build_artifacts/requests_1749498106507/work
 retrying @ file:///home/conda/feedstock_root/build_artifacts/bld/rattler-build_retrying_1754219562/work
 rich==14.1.0
-rignore==0.7.1
 rouge-chinese==1.0.3
 rpds-py==0.27.0
 ruff==0.12.8
@@ -241,14 +237,12 @@ tzdata==2025.2
 urllib3 @ file:///home/conda/feedstock_root/build_artifacts/urllib3_1750271362675/work
 utils3d @ git+https://github.com/EasternJournalist/utils3d.git@9a4eb15e4021b67b12c460c7057d642626897ec8
 uvicorn==0.35.0
-uvloop==0.22.1
 vtk==9.3.1
 wandb==0.21.3
 wcwidth==0.2.13
 webdataset==1.0.2
 websockets==15.0.1
 Werkzeug @ file:///home/conda/feedstock_root/build_artifacts/werkzeug_1733160440960/work
-wrapt==1.17.3
 wslink @ file:///home/conda/feedstock_root/build_artifacts/wslink_1747717868707/work
 xatlas==0.0.11
 xxhash==3.5.0
