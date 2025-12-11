@@ -5,7 +5,7 @@ Official repository for the paper "[Are We Ready for RL in Text-to-3D Generation
 [[📖 Paper]()] [[🤗 one-step Model](https://huggingface.co/IvanTang/3DGen-R1/tree/main)]
 
 <p align="center">
-    <img src="" width="100%"> <br>
+    <img src="teaser.png" width="100%"> <br>
 </p>
 
 ## 💥 News
@@ -28,8 +28,15 @@ You can download the checkpoint from [here](https://huggingface.co/IvanTang/3DGe
 
 ```
 
-## Qualitative result
+## 👀 Qualitative result
 
+<p align="center">
+    <img src="visual1.png" width="90%"> <br>
+</p>
+
+<p align="center">
+    <img src="visual2.png" width="90%"> <br>
+</p>
   
 ## 🗒️ TODO
 
