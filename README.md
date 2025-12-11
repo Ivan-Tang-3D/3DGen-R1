@@ -40,9 +40,9 @@ You can download the checkpoint from [here](https://huggingface.co/IvanTang/3DGe
   
 ## 🗒️ TODO
 
-- [] Release complete two-step training & evaluation code
+- [ ] Release complete two-step training & evaluation code
 
-- [] Release one-step training code
+- [ ] Release one-step training code
 
 ### 🧠 Related Work
 
