@@ -5,7 +5,7 @@ Official repository for the paper "[Are We Ready for RL in Text-to-3D Generation
 [[📖 Paper]()] [[🤗 one-step Model](https://huggingface.co/IvanTang/3DGen-R1/tree/main)]
 
 <p align="center">
-    <img src="teaser.png" width="100%"> <br>
+    <img src="figures/teaser.png" width="100%"> <br>
 </p>
 
 ## 💥 News
@@ -25,17 +25,17 @@ pip install -r requirements.txt
 ## 💫 Inference   
 You can download the checkpoint from [here](https://huggingface.co/IvanTang/3DGen-R1/tree/main)
 ```
-
+python demo.py
 ```
 
 ## 👀 Qualitative result
 
 <p align="center">
-    <img src="visual1.png" width="90%"> <br>
+    <img src="figures/visual1.png" width="90%"> <br>
 </p>
 
 <p align="center">
-    <img src="visual2.png" width="90%"> <br>
+    <img src="figures/visual2.png" width="90%"> <br>
 </p>
   
 ## 🗒️ TODO
@@ -49,3 +49,4 @@ You can download the checkpoint from [here](https://huggingface.co/IvanTang/3DGe
 - **[Image Generation CoT]** [Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step?](https://arxiv.org/pdf/2501.13926)
 - **[T2I-R1]** [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/pdf/2505.00703)
 - **[ShapeLLM-Omni]** [ShapeLLM-Omni: A Native Multimodal LLM for 3D Generation and Understanding](https://arxiv.org/abs/2506.01853)
+- - **[Trellis]** [Structured 3D Latents for Scalable and Versatile 3D Generation](https://arxiv.org/abs/2412.01506)
