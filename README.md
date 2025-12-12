@@ -44,7 +44,7 @@ python demo.py
 
 - [ ] Release one-step training code
 
-### 🧠 Related Work
+## 🧠 Related Work
 
 - **[Image Generation CoT]** [Can We Generate Images with CoT? Let's Verify and Reinforce Image Generation Step by Step?](https://arxiv.org/pdf/2501.13926)
 - **[T2I-R1]** [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/pdf/2505.00703)
