@@ -2,7 +2,7 @@
 
 Official repository for the paper "[Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation](https://arxiv.org/pdf/2512.10949)".
 
-[[📖 Paper](https://arxiv.org/pdf/2512.10949)] [[🤗 one-step Model](https://huggingface.co/IvanTang/3DGen-R1/tree/main)]
+[[📖 Paper](https://arxiv.org/pdf/2512.10949)] [[🤗 one-step Model](https://huggingface.co/IvanTang/3DGen-R1/tree/main)] \#3 paper of the day in HuggingFace Daily Papers
 
 <p align="center">
     <img src="figures/teaser.png" width="100%"> <br>
