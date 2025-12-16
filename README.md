@@ -10,7 +10,7 @@ Official repository for the paper "[Are We Ready for RL in Text-to-3D Generation
 
 ## 💥 News
 - **[2025.12.15]** AR3D-R1 \#3 paper of the day in HuggingFace Daily Papers ! 🔥
-- **[2025.12.11]** We release the [checkpoint](https://huggingface.co/IvanTang/3DGen-R1/tree/main) of one-step AR3D-R1 and the evaluation code! 🔥
+- **[2025.12.11]** We release the [checkpoint](https://huggingface.co/IvanTang/3DGen-R1/tree/main) of one-step AR3D-R1 and the inference code! 🔥
 - **[2025.12.11]** We release the [arxiv paper](https://arxiv.org/pdf/2512.10949). 🔥
 
 ## 💪 Get Started
