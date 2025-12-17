@@ -52,3 +52,14 @@ python demo.py
 - **[T2I-R1]** [T2I-R1: Reinforcing Image Generation with Collaborative Semantic-level and Token-level CoT](https://arxiv.org/pdf/2505.00703)
 - **[ShapeLLM-Omni]** [ShapeLLM-Omni: A Native Multimodal LLM for 3D Generation and Understanding](https://arxiv.org/abs/2506.01853)
 - **[Trellis]** [Structured 3D Latents for Scalable and Versatile 3D Generation](https://arxiv.org/abs/2412.01506)
+
+## ⭐Citation
+If you find AR3D-R1 useful for your research or projects, we would greatly appreciate it if you could cite the following paper:
+```
+@article{tang2025we,
+  title={Are We Ready for RL in Text-to-3D Generation? A Progressive Investigation},
+  author={Tang, Yiwen and Guo, Zoey and Zhu, Kaixin and Zhang, Ray and Chen, Qizhi and Jiang, Dongzhi and Liu, Junli and Zeng, Bohan and Song, Haoming and Qu, Delin and others},
+  journal={arXiv preprint arXiv:2512.10949},
+  year={2025}
+}
+```
