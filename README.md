@@ -22,6 +22,7 @@ conda activate environment_name
 
 pip install -r requirements.txt
 ```
+My environment setup is mainly based on ShapeLLM-Omni: https://github.com/JAMESYJL/ShapeLLM-Omni. If you only need inference, installing this repository is sufficient.
 
 ## 💫 Inference   
 You can download the checkpoint from [here](https://huggingface.co/IvanTang/3DGen-R1/tree/main)
