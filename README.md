@@ -30,6 +30,18 @@ You can download the checkpoint from [here](https://huggingface.co/IvanTang/3DGe
 python demo.py
 ```
 
+## 💫 Evaluation with Metrics
+We provide an evaluation script that supports both inference and metrics calculation:
+
+```
+python eval.py
+```
+
+**Configuration:**
+- Modify the `model_path` in `eval.py` to point to your downloaded checkpoint
+- The script is compatible with the inference pipeline and adds comprehensive metrics evaluation
+- Supports batch evaluation on test datasets with automatic metric computation
+
 ## 👀 Qualitative result
 
 <p align="center">
