@@ -42,6 +42,18 @@ My environment setup is mainly based on [ShapeLLM-Omni](https://github.com/JAMES
    huggingface-cli download CodeGoat24/UnifiedReward-2.0-qwen-7b --repo-type model --local-dir UnifiedReward-2.0-qwen-7b
    ```
 
+### 🚀 Training 
+
+```bash
+cd gen3d-r1/src
+bash scripts/run_grpo_3d.sh
+```
+
+Notes:
++ Parameters:
+   - reward_funcs: The options are `hps`, `unified`. You can choose whatever composition you need for training. Make sure to substitute the correct checkpoint path and config path in the `run_grpo_3d.sh`
+
+
 ## 💫 Inference   
 You can download the checkpoint from [here](https://huggingface.co/IvanTang/3DGen-R1/tree/main)
 ```
