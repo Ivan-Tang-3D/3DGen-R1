@@ -57,7 +57,7 @@ python eval.py
 
 - [ ] Release complete two-step training & evaluation code
 
-- [✅] Release one-step training code
+- [x] Release one-step training code
 
 ## 🧠 Related Work
 
