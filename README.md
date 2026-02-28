@@ -25,6 +25,23 @@ pip install -r requirements.txt
 ```
 My environment setup is mainly based on [ShapeLLM-Omni](https://github.com/JAMESYJL/ShapeLLM-Omni). If you only need inference, installing this repository is sufficient.
 
+### Prepare Reward Model Checkpoints
+
+   Please download the reward model you need for training.
+
+   ```bash
+   cd gen3d-r1/reward_weight
+   ```
+
+   - Download HPS checkpoint from [this link](https://huggingface.co/xswu/HPSv2/resolve/main/HPS_v2.1_compressed.pt) by
+   ```bash
+   wget https://huggingface.co/xswu/HPSv2/resolve/main/HPS_v2.1_compressed.pt
+   ```
+   - Download Unified checkpoint from [this link](https://huggingface.co/CodeGoat24/UnifiedReward-2.0-qwen-7b) by
+   ```bash
+   huggingface-cli download CodeGoat24/UnifiedReward-2.0-qwen-7b --repo-type model --local-dir UnifiedReward-2.0-qwen-7b
+   ```
+
 ## 💫 Inference   
 You can download the checkpoint from [here](https://huggingface.co/IvanTang/3DGen-R1/tree/main)
 ```
