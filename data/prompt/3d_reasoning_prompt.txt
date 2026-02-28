@@ -1,0 +1,13 @@
+Let me think step by step about generating the 3D model for '{}'.
+
+I need to consider:
+1. Overall geometric structure: What is the basic shape and form of this object?
+2. Key features and details: What distinctive elements define this object?  
+3. Proportions and scale: How do different parts relate in size and position?
+4. Material properties: What surface textures and materials are needed?
+5. Functional aspects: How does form follow function for this object?
+6. Spatial relationships: How do components connect and interact in 3D space?
+7. Topology considerations: What is the surface topology and mesh structure?
+8. Rendering properties: How should this object appear when rendered?
+
+My detailed reasoning process:
